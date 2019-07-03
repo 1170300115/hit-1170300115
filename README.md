@@ -1,4 +1,4 @@
-[fish](https://fishshell.com/) - the friendly interactive shell [![Build Status](https://travis-ci.org/fish-shell/fish-shell.svg?branch=master)](https://travis-ci.org/fish-shell/fish-shell)
+Hello World!
 ================================================
 
 fish is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family.
