@@ -1,4 +1,4 @@
 Hello World!
 ================================================
 
-This is
+This is  the project to complete the A1 homework.
