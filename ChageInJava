@@ -1,0 +1,31 @@
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Func {
+
+    final private List<String> lines = new LinkedList<String>();
+
+    public Func() {
+        lines.add("Hello\tworld!");
+        lines.add("Hello\tChina!");
+        lines.add("Hello\tHIT!");
+        lines.add("Hello\t!");
+    }
+
+    public List<String> getter() {
+        return lines;
+    }
+
+    public static void main(String arg[]) {
+        Func a = new Func();
+        for (int i = 0; i < 3; i++) {
+            Iterator<String> it = a.getter().iterator();
+            while(it.hasNext()) {
+                System.out.println(it.next());
+            }
+            System.out.println();
+        }
+    }
+}
